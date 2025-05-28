@@ -174,7 +174,7 @@ function celebrate() {
 
 
 function goStore() {
-  celebrate();
+ 
   update(locations[1]);
 }
 
@@ -236,6 +236,7 @@ function fightBeast() {
 }
 
 function fightDragon() {
+   celebrate();
   fighting = 2;
   goFight();
 }
